@@ -1,0 +1,76 @@
+/* src/components/BMICalculator.css */
+.bmi-calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f0f8ff;
+    text-align: center;
+  }
+  
+  .bmi-calculator h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .calculate-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .calculate-button:hover {
+    background-color: #218838;
+  }
+  
+  .bmi-result {
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .bmi-result.underweight {
+    background-color: #ffc107;
+    color: #856404;
+  }
+  
+  .bmi-result.normal {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .bmi-result.overweight {
+    background-color: #fd7e14;
+    color: #fff;
+  }
+  
+  .bmi-result.obese {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  

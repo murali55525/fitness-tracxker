@@ -1,0 +1,67 @@
+.find-calories-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .find-calories-container h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .find-calories-container input,
+  .find-calories-container select,
+  .find-calories-container button {
+    margin: 10px 0;
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .find-calories-container input[type="text"],
+  .find-calories-container input[type="number"] {
+    font-size: 16px;
+  }
+  
+  .find-calories-container select {
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .find-calories-container button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .find-calories-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .calories-result {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .calories-result h3 {
+    color: green;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,97 @@
+/* FindFood.css */
+
+/* Container styling */
+.find-food-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f4f4f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  .find-food-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Flexbox container for input field and button */
+  .input-search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between input field and button */
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .food-input {
+    flex: 1; /* Allow input to take available space */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .food-input:focus {
+    border-color: #5cb85c;
+  }
+  
+  /* Search button styling */
+  .food-search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .food-search-button:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: #e74c3c;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Food info container styling */
+  .food-info {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Food info text */
+  .food-info h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .food-info p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 6px;
+  }
+  
+  .food-info strong {
+    color: #333;
+  }
+  
+  .food-info p:last-child {
+    margin-bottom: 0;
+  }
+  
